@@ -1,0 +1,21 @@
+#logo-nav{background:url("img/hbg.png")/*tpa=http://www.qzxdhh.com/Public/Home/pc/Css/img/hbg.png*/ no-repeat center ;height: 151px;position: absolute;z-index: 999999;width: 100%;top: 70px;}
+.logo{width:auto;margin: -57px 38px 0 38px;}
+.logo a{display: block;font-size: 0px;line-height: 0px;transition: all .3s;}
+.logo a:hover{margin-top: -10px;}
+.logo-nav{position:relative;margin-top:44px;}
+.nav-ul{}
+.nav-ul li{text-align:center;float:left;height:64px;position:relative;/*border-right:1px solid #e7e7e7;*/}
+/*.nav-ul li:first-child{border-left:1px solid #e7e7e7;}*/
+.nav-ul li a{color:#fff;font-size:15px;transition: all .3s;height:64px;line-height: 64px;display: block;padding: 0 24px;}
+.nav-ul li:hover a,.nav-ul li.hover a{background: #a10205;color: #fff;}
+.nav-ul li:hover a,.nav-ul li.hover a{color: #fff;}
+.nav-ul li .second-div{position:absolute;left:-123px;top:18px;z-index: 99999;}
+.nav-ul li .second-div .second-ul{padding:20px;position:absolute;left:-20px;top:46px;width:535px;background:#df2ca0;display:none;}
+.nav-ul li .second-div .second-ul img{float:left;border:3px #e7e6e4 solid;}
+.nav-ul li .second-div .second-li{float:left;text-align:left;width:310px;padding-left:13px;}
+.nav-ul li .second-div .second-li a{width:120px;height:20px;line-height:20px;text-align:left;padding-left:10px;border:1px solid #ddd;background:#fff;display:inline-block;margin-top:6px;margin-left:16px;font-size:14px;color:#000;padding-right: 0px;}
+.nav-ul li .second-div .second-li a:hover{background:#000;border:1px solid #000;color: #fff;}
+.i_t1_right_1_search{background:#eeeeee none repeat scroll 0 0;color:#747474;float:left;height:25px;width:232px;padding:0;margin:0;margin-left:10px;padding-left:5px;}
+.search_btn{background:#eeeeee none repeat scroll 0 0;display:inline-block;float:left;height:30px;padding-top:3px;}
+.searchsd .an{background:#eeeeee none repeat scroll 0 0;display:inline-block;float:left;height:auto;padding-top:0;}
+.searchsd .an input{width: 31px;height: 29px;border: none;background: url("img/search.jpg")/*tpa=http://www.qzxdhh.com/Public/Home/pc/Css/img/search.jpg*/ no-repeat;text-indent: -9999px;cursor: pointer;}

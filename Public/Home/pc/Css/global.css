@@ -1,0 +1,20 @@
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+#example{width:600px;height:350px;position:relative;margin:0 auto;}
+
+#slides{position:absolute;top:15px;left:4px;z-index:100;}
+#slides .next,#slides .prev{position:absolute;top:107px;left:-90px;width:54px;height:105px;display:block;z-index:101;}
+.slides_container{width:567px;height:455px;overflow:hidden;position:relative;}
+.slides_container li{width:567px;}
+.slides_container li a{transform: inherit;}
+.slides_container li a img{-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;}
+.slides_container li h3{font-size: 20px;color: #222;text-align: center;margin:10px 0 0;}
+.slides_container li p{color: #3b3b3b;font-size: 14px;text-align: center;margin:20px 0 0;}
+.slides_container li a:hover img {-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;transform: scale(1.02,1.02);}
+#slides .next{left:615px;}
+.pagination{margin:26px auto 0;width:100px;}
+.pagination li{float:left;margin:0 1px;}
+.pagination li a{display:block;width:12px;height:0;padding-top:12px;background-image:url("img/pagination.png")/*tpa=http://www.qzxdhh.com/Public/Home/pc/Css/img/pagination.png*/;background-position:0 0;float:left;overflow:hidden;transform: inherit;}
+.pagination li.current a{background-position:0 -12px;}
